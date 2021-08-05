@@ -1,0 +1,21 @@
+acai	10	1	kg	Loja de acai
+*acucar	3.49	1	kg	Moises/Tere 1
+adocante	3.98	100	ml	Supermarket
+amendoim	8.99	500	g	Moises
++amido_de_milho	3.99	200	g	Tere 2/Supermarket
+arroz	18.98	5	kg	Tere 1
+-aveia	9.69	450	g	Multimix
+*bebida_lactea    5.99	900	ml	Tere 2
+cafe	8.98	500	g	Supermarket/Armazem
+cereal	7.49	300	g	Supermarket
+-creme_de_arroz	4.99	200	g	Tere 2
++farinha_de_aveia	8.98	500	g	Xodo
+*feijao	6.99	1	kg	Tere 1
+frango	13.99	1	kg	Multimix
+-leite	3.99	1	L	Armazem
++leite_em_po	11.99	400	g	Armazem/Supermarket
+macarrao	4.99	1	kg	Moises
+*molho_de_tomate	1.49	340	g	Tere 2
+oleo	7.99	900	ml	Tere 1/Tere 2
+ovo	12.99	30	unid	Tere 1
+pao	3.49	450	g	Dib

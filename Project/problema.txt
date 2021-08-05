@@ -1,0 +1,57 @@
+MINIMIZE
+
+    4.49 n_arrozina  +  15.5 n_file_de_frango  +  75.0 n_hipercalorico  +  12.99 n_leite_em_po
+
+SUBJECT TO
+
+    CarbohydrateRequirementMin:
+        17 n_arrozina  +  128 n_hipercalorico  +  9.6 n_leite_em_po
+        >= 300
+
+    CarbohydrateRequirementMax:
+        17 n_arrozina  +  128 n_hipercalorico  +  9.6 n_leite_em_po
+        <= 480
+
+    ProteinRequirementMin:
+        23 n_file_de_frango  +  15 n_hipercalorico  +  6.7 n_leite_em_po
+        >= 108
+
+    ProteinRequirementMax:
+        23 n_file_de_frango  +  15 n_hipercalorico  +  6.7 n_leite_em_po
+        <= 120
+
+    FatRequirementMin:
+        n_file_de_frango  +  2.3 n_hipercalorico  +  7.1 n_leite_em_po
+        >= 48
+
+    FatRequirementMax:
+        n_file_de_frango  +  2.3 n_hipercalorico  +  7.1 n_leite_em_po
+        <= 72
+
+    CaloriesRequired:
+        68 n_arrozina  +  101 n_file_de_frango  +  592.7 n_hipercalorico  +  129.1 n_leite_em_po
+        >= 2165.35
+
+VARIABLES
+
+    0  <=  n_arrozina Integer
+    0  <=  n_file_de_frango Integer
+    1  ==  n_hipercalorico Integer
+    0  <=  n_leite_em_po Integer
+
+
+REPORT
+
+    Status:    1, Optimal
+    Objective: 236.86
+    Result:    success
+
+    n_arrozina:       6.0
+    n_file_de_frango: 2.0
+    n_hipercalorico:  1.0
+    n_leite_em_po:    8.0
+
+    Kcal:         2235.50:
+    Carbohydrate: 306.80
+    Protein:      114.60
+    Fat:          61.10

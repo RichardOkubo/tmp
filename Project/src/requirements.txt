@@ -1,0 +1,2 @@
+PuLP==2.4
+SQLAlchemy==1.4.17

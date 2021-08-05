@@ -1,0 +1,21 @@
+# DIETA
+
+Em 28 dias seriam gastos R$131.93 com Hipercalórico, Leite (pó) e Arrozina
+
+## Dia consumindo Hipercalórico (1 unid)[150g] + Leite (3 unid)[40g] (pó) & Arrozina (4 unid)[20g]
+
+[consumo diário]
+Carboidratos totais: 159.8
+Proteínas totais: 25.3
+Gorduras totais: 13.2
+Kcal total: 859.2
+
+## Dia sem consumir Hipercalórico, mas tomando Leite (pó) [20g] & Arrozina [20g]
+
+[consumo diário]
+Carboidratos totais: ?
+Proteínas totais: ?
+Gorduras totais: ?
+Kcal total: ?
+
+### No final dos 28 dias, restariam 0g de Hipercalórico, 240g de Leite (pó) e 160g de Arrozina
